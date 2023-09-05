@@ -1,0 +1,10 @@
+[
+    {
+        "Name": "chromium_third_party_pyelftools",                   # 上游开源软件名全称
+        "License": "example","sections" ,"Setup","This","elftools"        # 上游开源软件中包含的许可证信息
+        "License File":"LICENSE"     # 许可证所在文件路径
+        "Version Number": "19b3e610c86fcadb837d252c794cb5e8008826ae",
+        "Upstream URL": "https://chromium.googlesource.com/external/github.com/KhronosGroup/glslang@19b3e610c86fcadb837d252c794cb5e8008826ae",   # 上游软件包发布地址
+        "Description": "第三方软件pyelftools"           # 开源软件功能描述
+    }
+]
