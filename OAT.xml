@@ -99,15 +99,11 @@ used to filter file path.
                 License File: LICENSE
                 Security Critical: no
             " desc="" />
-            </licensematcher>
-            <licensematcher name="Public Domain" desc="">
                 <licensetext name="
                 # Eli Bendersky (eliben@gmail.com)
                 # This code is in the public domain
             " desc="" />
-            </licensematcher>
-             <licensematcher name="Public Domain" desc="">
-                <licensetext name="
+                 <licensetext name="
                 # pyelftools: setup.py
                 #
                 # Setup/installation script.
