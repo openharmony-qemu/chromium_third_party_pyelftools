@@ -70,15 +70,17 @@ used to filter file path.
                 <policyitem type="compatibility" name="Public Domain" path="z.py" desc="经法务确认经法务确认为宽松型许可证" />
                 <policyitem type="compatibility" name="Public Domain" path="setup.py" desc="经法务确认经法务确认为宽松型许可证" />
                 <policyitem type="compatibility" name="Public Domain" path="README.chromium" desc="经法务确认经法务确认为宽松型许可证" />
-                <policyitem type="compatibility" name="Unknown License file reference" path="test/external_tools/elf_creator.c" desc="经法务确认经法务确认为宽松型许可证" />
             </policy>
         </policylist>
         <filefilterlist>
             <filefilter name="defaultPolicyFilter" desc="Filters for compatibility,license header policies">
-                 <filteritem type="filepath" name="README.rst" desc="chromium原生文件无license" />
+                <filteritem type="filepath" name="README.rst" desc="chromium原生文件无license" />  
             </filefilter>
             <filefilter name="readmeOpenSourcefileNamePolicFilter">
                 <filteritem type="filepath" name="README.OpenSource" desc="Filter readme.opensource files" />
+            </filefilter>
+            <filefilter name="defaultFilter" desc="File is not used">
+                <filteritem type="filepath" name="test/external_tools/elf_creator.c" desc="经确认该文件不使用" />
             </filefilter>
             <filefilter name="binaryFileTypePolicyFilter" desc="Check to see if it is a binary file">
                 <filteritem type="filepath" name=".*elf"  desc="" />
