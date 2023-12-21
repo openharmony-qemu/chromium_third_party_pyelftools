@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "pyelftools",
+        "License": "Public Domain",
+        "License File":"LICENSE",
+        "Version Number": "19b3e610c86fcadb837d252c794cb5e8008826ae",
+        "Owner": "huangjiewen2@huawei.com",
+        "Upstream URL": "https://chromium.googlesource.com/chromiumos/third_party/pyelftools.git@19b3e610c86fcadb837d252c794cb5e8008826ae",
+        "Description": "第三方软件pyelftools,a pure-Python library for parsing and analyzing ELF files and DWARF debugging information"
+    }
+]
